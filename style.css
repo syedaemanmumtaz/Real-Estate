@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bg-custam{
+    height: 90px;
+    border-radius: 70px;
+    background-color: #fafafa;
+}
+.navbar-nav{
+    background-color: #FEFEFF;
+    height: 60px;
+    border-radius: 40px;
+}
+.btn-custam{
+    border: 1px solid #bebebe;
+    border-radius: 40px;
+    padding:15px, 35px, 15px, 35px ;
+}
+.Manage{
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.gradient{
+    background-image:linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%),url(imags/img.png);
+    border-radius: 10px;
+}
+.email{
+    width: 300px;
+    height:60px;
+    border-radius: 40px;
+}
+.email::placeholder{
+    text-align: center;
+}
+.btn-dark{
+    border-radius: 40px;
+}
+@media (max-width:769px){
+    .f4{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:992px)  {
+    .f5>img{
+       height: 450px;
+       width: 100%;
+        display: flex;
+       flex-direction: column;
+    }
+}
+@media (max-width:1200px){
+    .f5>img{
+        width: 100%;
+    }
+}
+
