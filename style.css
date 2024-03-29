@@ -10,13 +10,11 @@ body {
     font-style: normal;
 }
 .bg-custam{
-    height: 90px;
     border-radius: 70px;
     background-color: #fafafa;
 }
 .navbar-nav{
     background-color: #FEFEFF;
-    height: 60px;
     border-radius: 40px;
 }
 .btn-custam{
@@ -42,22 +40,44 @@ body {
     text-align: center;
 }
 .btn-dark{
+    position:relative;
+    left:-40px;
     border-radius: 40px;
+}
+
+.btn-book{
+    background-color: #000000e8;
+    color: #fafafa;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.btn-read{
+    border: 1px solid #c2b8b8;
+    border-radius: 25px;
+    padding: 10px 25px;
 }
 @media (max-width:769px){
     .f4{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .Manage{
+        font-size: large;
     }
 }
 @media (max-width:992px)  {
     .f5>img{
        height: 450px;
        width: 100%;
-        display: flex;
+       display: flex;
        flex-direction: column;
     }
+
+    .Manage{
+        font-size: xx-large;
+    }
 }
+
 @media (max-width:1200px){
     .f5>img{
         width: 100%;
